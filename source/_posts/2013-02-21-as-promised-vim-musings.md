@@ -3,8 +3,6 @@ title: As promised, Vim musings
 author: Aaron
 layout: post
 permalink: /2013/02/21/as-promised-vim-musings/
-categories:
-  - Article
 tags:
   - links
   - vim

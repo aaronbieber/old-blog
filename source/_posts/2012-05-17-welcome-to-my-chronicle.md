@@ -3,8 +3,6 @@ title: Welcome to my chronicle
 author: Aaron
 layout: post
 permalink: /2012/05/17/welcome-to-my-chronicle/
-categories:
-  - Article
 tags:
   - php
   - vim

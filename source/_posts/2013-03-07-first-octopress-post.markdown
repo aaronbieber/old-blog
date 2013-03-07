@@ -3,7 +3,6 @@ layout: post
 title: "First Octopress post"
 date: 2013-03-07 11:34
 comments: true
-categories: 
 ---
 
 This is my very first post using Octopress and of course editing the post file 
