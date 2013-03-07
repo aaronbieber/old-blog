@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<<<<<<< HEAD
+=======
+{% if site.sidebar_posn == "left" %}
+  {% include sidebar.html %}
+{% endif %}
+>>>>>>> Changed theme to octopress-bootstrap.
 <div class="blog-index">
   {% assign index = true %}
   {% for post in paginator.posts %}
@@ -20,6 +26,7 @@ layout: default
     {% endif %}
   </div>
 </div>
+<<<<<<< HEAD
 <aside class="sidebar">
   {% if site.blog_index_asides.size %}
     {% include_array blog_index_asides %}
@@ -27,3 +34,8 @@ layout: default
     {% include_array default_asides %}
   {% endif %}
 </aside>
+=======
+{% if site.sidebar_posn != "left" %}
+  {% include sidebar.html %}
+{% endif %}
+>>>>>>> Changed theme to octopress-bootstrap.
