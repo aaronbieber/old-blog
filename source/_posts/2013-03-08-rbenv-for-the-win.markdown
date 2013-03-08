@@ -4,6 +4,9 @@ title: "Rbenv for the win"
 date: 2013-03-08 10:34
 comments: true
 categories: 
+    - ruby
+    - howto
+    - linux
 ---
 I'm sure that this is not news to many of you, but rbenv is awesome. Because I 
 faced some challenges along the way while setting up this Octopress blog 
@@ -93,4 +96,29 @@ versions.
 
 ## Cautionary notes
 
+None of the rbenv black magic works without updating your shell initialization 
+scripts. For most folks (I think), this is one of `.bash_profile`, `.profile`, 
+or `.bashrc`. For those using other shells, you know what your initialization 
+script is. The [rbenv README][1] goes into detail about that, but suffice it 
+to say, you need to update these files and explicitly source them or restart 
+your terminal session before things will work correctly.
 
+When it comes to building versions of Ruby, if you are using `ruby-build` 
+directly as I am, you need to specify the installation location yourself. I 
+recommend using the default location, `~/.rbenv/versions/<version name>`. So 
+if you wanted to install 1.9.3-p392, you would run:
+
+``` bash
+$ ruby-build 1.9.3-p392 ~/.rbenv/versions/1.9.3-p392
+```
+
+I'm fairly sure that you can name the destination directory however you'd 
+like, but it seems to make sense to name it for the exact Ruby version. Once 
+the build completes, you will be able to set the version for any directory 
+using `rbenv version`.
+
+## That's it
+
+So that's about it. If I left anything out that you have questions about, or 
+if I was... You know... Wrong... About anything... Please leave a comment 
+below! I'll reply, I promise.
