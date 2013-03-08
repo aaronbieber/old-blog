@@ -12,11 +12,11 @@ programmer at a national consulting firm (business consulting, not development
 consulting) to take a job writing ColdFusion at a startup on the other side of 
 the state.
 
-Since then, I have learned the *ins* and outs of an arcane version of 
-ColdFusion while using more modern languages, such as Ruby and Python, only in 
-my spare time. Finally, after all these years, the business sees fit to 
-undertake a rewrite and to leave ColdFusion behind. After much deliberation, 
-PHP was chosen.
+Since then, I have learned the ins and outs of an arcane version of ColdFusion 
+while using more modern languages, such as Ruby and Python, only in my spare 
+time. Finally, after all these years, the business sees fit to undertake a 
+rewrite and to leave ColdFusion behind. After much deliberation, PHP was 
+chosen.
 
 Let us keep the snickers to a minimum; PHP is still the language with the 
 broadest adoption and is therefore among the easiest to hire for. As it turns 
@@ -37,5 +37,4 @@ I may also talk about bash scripting, because bash is cool. Here’s a freebie.
 function ll() {
     ls -G -lho "$@";
 }
-    
 ```
