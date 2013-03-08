@@ -1,5 +1,14 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+@media (min-width: 1200px) {
+    body > header {
+        margin-top: 30px;
+        border-radius: 5px 5px 0 0;
+        box-shadow: inset 0 1px 5px 0px #9dbccf;
+    }
+}
+
 article header h1 {
     color: $article-title-color;
 }
