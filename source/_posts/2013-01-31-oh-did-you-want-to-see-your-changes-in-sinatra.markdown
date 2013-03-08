@@ -2,6 +2,7 @@
 title: Oh, did you want to see your changes in Sinatra?
 author: Aaron
 layout: post
+comments: true
 permalink: /2013/01/31/oh-did-you-want-to-see-your-changes-in-sinatra/
 ---
 # 

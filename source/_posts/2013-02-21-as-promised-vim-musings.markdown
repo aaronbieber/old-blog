@@ -2,13 +2,12 @@
 title: As promised, Vim musings
 author: Aaron
 layout: post
+comments: true
 permalink: /2013/02/21/as-promised-vim-musings/
 tags:
   - links
   - vim
 ---
-# 
-
 I love Vim, I really do. Having used Vim for about 12 years or so, I feel really comfortable with it. Remarkably, I keep learning new things about it, but it’s easy to get sucked down the rabbit hole. I’ve written a couple of my own plug-ins (most notably my [Quicktask][1] task management tool) and I’ve customized the thing to death.
 
  [1]: http://quicktask.aaronbieber.com

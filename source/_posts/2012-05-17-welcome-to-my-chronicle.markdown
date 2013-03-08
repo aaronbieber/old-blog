@@ -2,6 +2,7 @@
 title: Welcome to my chronicle
 author: Aaron
 layout: post
+comments: true
 permalink: /2012/05/17/welcome-to-my-chronicle/
 tags:
   - php

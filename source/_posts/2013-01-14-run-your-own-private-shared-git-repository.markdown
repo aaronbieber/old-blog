@@ -2,6 +2,7 @@
 title: Run your own private shared git repository
 author: Aaron
 layout: post
+comments: true
 permalink: /2013/01/14/run-your-own-private-shared-git-repository/
 ---
 So everyone uses Github now, and that’s cool, because Github is awesome. But 

@@ -2,6 +2,7 @@
 title: Rediscovering the Linux desktop
 author: Aaron
 layout: post
+comments: true
 permalink: /2012/12/13/rediscovering-the-linux-desktop/
 ---
 Here at the day job, we are slowly moving our (production) systems away from 
