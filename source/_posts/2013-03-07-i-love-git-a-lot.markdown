@@ -13,8 +13,8 @@ alone in this sentiment. So much do I love git and github.com that I have
 taken to using it for as much as possible.
 
 My latest thing is dotfiles. You know all of those preference and settings 
-files that start to pile up in your Mac or Linux home directory, the ones that 
-start with a period. For a while I had been keeping the longer, more important 
+files that start to pile up in your Mac or Linux home directory? Rhe ones that 
+start with a period? For a while I had been keeping the longer, more important 
 ones on github.com, which is really helpful when using a new computer or 
 reinstalling your OS from scratch.
 
