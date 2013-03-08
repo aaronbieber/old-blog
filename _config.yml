@@ -4,7 +4,7 @@
 
 url: http://blog.aaronbieber.com
 title: Aaron Bieber
-subtitle: Web-focused technologist gallivanting around Beantown.
+subtitle: The chronicle of a ColdFusion expatriate.
 author: Aaron Bieber
 simple_search: http://google.com/search
 description:
@@ -91,7 +91,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: aaronbieber
 disqus_show_comment_count: false
 
 # Google Analytics

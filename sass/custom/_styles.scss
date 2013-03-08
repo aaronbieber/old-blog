@@ -32,3 +32,19 @@ article li {
 footer {
     font-size: 0.8em;
 }
+
+/* My awesome infobox. */
+div.infobox {
+    background-color: #EEF4F7;
+    border: 1px solid #6CA4B7;
+    box-shadow: inset 0 1px 3px 0 #8EB9C7;
+    -webkit-box-shadow: inset 0 1px 3px 0 #8EB9C7;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+div.infobox p:last-child {
+    margin-bottom: 0px;
+}
