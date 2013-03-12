@@ -83,6 +83,11 @@ opted for the system-wide installation, which, at least in my case, is not a
 big deal because I'm the only user of the system. To do this, you clone the 
 project wherever you want and run its installer script:
 
+{% infobox %}
+I finally figured this out; see 
+[Rbenv revisited](/blog/2013/03/11/rbenv-revisited/) for the details!
+{% endinfobox %}
+
 ``` bash
 $ git clone git://github.com/sstephenson/ruby-build ruby-build
 $ cd ruby-build
