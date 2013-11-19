@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why You Should Give ZSH Another Try"
-date: 2013-10-31 08:15
+date: 2013-11-19 18:32
 comments: true
 categories:
 ---
@@ -47,11 +47,14 @@ If you're like me, you're more of a *doer* than a *reader*. If you want to see
 what all the fuss is about, here is how you can do that right now:
 
 1.  Make sure you have zsh installed. It is the default shell in OS X and
-    CentOS; other flavors of Linux may need a quick install. For Ubuntu, `sudo
-    apt-get install zsh`, for Gentoo `sudo emerge zsh zsh-completion`.
+    sometimes CentOS; other flavors of Linux may need a quick install. For 
+    Ubuntu, `sudo apt-get install zsh`, for Gentoo `sudo emerge zsh 
+    zsh-completion`.
 2.  If you want to try "oh my zsh", get it [on the oh-my-zsh Github page][1].
     I highly recommend it, but be prepared to read another README and follow
     more installation instructions.
+
+[1]: https://github.com/robbyrussell/oh-my-zsh
 
 ## Oh, the Features!
 
@@ -125,4 +128,72 @@ With me so far? Excellent. Here are the options that I have set and why:
 : Zsh will emit a terminal bell when you attempt to do an ambiguous 
   completion... Unless you set this option. Which I strongly recommend.
 
-[1]: https://github.com/robbyrussell/oh-my-zsh
+These are the options that I'm pretty happy with so far, although I'm still 
+tweaking things here and there. Now let's get into the serious stuff!
+
+## What's in a Name?
+
+Zsh has this pretty fantastic feature called named directories. If you are 
+familiar with Linux shells at all, you are probably by now quite used to using 
+`~` to stand in for the path to your home directory. This is supremely 
+convenient when you want to, for example, copy a file from your current 
+directory to your home directory, like this:
+
+``` sh
+$ cp some_file.txt ~
+```
+
+Much easier than having to type out `/home/myusername/` or whatever it may be. 
+So that's swell, but what if you could create your own symbols for long 
+directory names that you use often? In zsh you can!
+
+The whole concept of "named directories" is based on zsh's "expansion" system, 
+which you can read about in detail on [this page][2]. Essentially, if any word 
+entered at the zsh prompt begins with a tilde (`~`), zsh attempts to expand it 
+in a few ways. Note that you can force this expansion "live" on the prompt by 
+pressing tab (which is sometimes really helpful and cool).
+
+To name your own directory, all you need to do is define a shell variable (in 
+zsh they call these "parameters;" I'm not sure why) that begins with a forward 
+slash. Obviously named directories must be absolute, so that might be slightly 
+limiting, but let's look at an example.
+
+Let's say you run an Apache webserver and the root of your main website is 
+located at `/var/www/awesomesite`. Even with tab completion it can be annoying 
+to type that over and over, so let's create a very short name for it:
+
+``` sh
+$ export wroot=/var/www/awesomesite
+```
+
+In the above example, I have used the `export` command at the prompt to 
+immediately add this variable to my environment. You can add that exact line 
+to your `.zshrc` so that it is permanent (without the dollar sign prompt 
+obviously). Now, if you want to change directories to your web root, you type:
+
+``` sh
+$ cd ~wr<tab>
+```
+
+When you press tab, if there are no other named directories starting with 
+"wr," it will expand your command line to `cd ~wroot/`. You saved at least six 
+or seven keystrokes even accounting for tab completion with the original full 
+path. You can also use the `~wroot` shorthand anywhere where zsh expects a 
+path and it will work. For example, `touch ~wroot/foo.txt` will work. Think of 
+the possibilities.
+
+So what if you wind up with a whole bunch of named directories? No problem, 
+zsh will continue to use your various completion options to disambiguate what 
+you have typed, including the same menu it uses for normal commands and paths 
+as described above.
+
+Named directories is one of my favorite zsh tricks.
+
+## What Else?
+
+There are obviously a lot of options available and I have only scratched the 
+surface here. I am still learning which combination of options I really like, 
+but maybe you have some experience or ideas as well; feel free to share them! 
+Remember, sharing is caring.
+
+[2]: http://www.cs.elte.hu/zsh-manual/zsh_6.html
