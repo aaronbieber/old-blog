@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Master Vim Registers with Control-R"
-date: 2013-11-24 08:02
+title: "Master Vim Registers with CTRL-R"
+date: 2013-12-03 08:02
 comments: true
 categories: 
 ---
@@ -102,5 +102,29 @@ register to easily edit complex Vim settings. The expression register is super
 powerful and can do a lot more than just output simple values. For example, it 
 is possible to perform calculations and call any of the built-in functions 
 found in `:h function-list`.
+
+Things are about to get pretty advanced, so make sure you're strapped in. This 
+is a completely contrived example, but I am going to show you how to create a 
+macro that uses CTRL-R to multiply the number under the cursor by two. Later 
+on, you can think of other crazy ways to apply these concepts and leave them 
+in the comments below for all to enjoy.
+
+The basic procedure is this:
+
+1.  Begin recording a macro into register "q"
+2.  Change the word (the number) under the cursor. This places the deleted 
+    value in the default register, `""`, and puts you in insert mode
+3.  Use CTRL-R to insert an expression and use CTRL-R again to get the value 
+    from the default register, `""`, into the command.
+
+The exact keystrokes to record the macro are these: `qqciw^R=2*^R"^M^[q`
+
+Note in the macro string that `^R` is CTRL-R, `^M` is the return key, and `^[` 
+is escape. Give it a try, record the macro, then type in some numbers in the 
+buffer and replay the macro with the cursor on each number. Because we have 
+used `ciw` you can place your cursor anywhere over the number and it will 
+replace the whole number with the sum!
+
+Now you have the power to *truly master CTRL-R*!
 
 [1]: {% post_url 2013-10-24-test-complex-vim-settings-easily %}
