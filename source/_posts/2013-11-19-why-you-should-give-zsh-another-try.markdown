@@ -131,6 +131,13 @@ With me so far? Excellent. Here are the options that I have set and why:
 These are the options that I'm pretty happy with so far, although I'm still 
 tweaking things here and there. Now let's get into the serious stuff!
 
+{% infobox %}
+Since I wrote this, I have decided that `menucomplete` is kind of annoying. 
+When `menucomplete` is turned on, you can't drill down into partial 
+completions by adding disambiguating characters because the menu appears 
+immediately. So, give it a try, but I turned it back off.
+{% endinfobox %}
+
 ## What's in a Name?
 
 Zsh has this pretty fantastic feature called named directories. If you are 
