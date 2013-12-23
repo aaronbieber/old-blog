@@ -2,11 +2,11 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://blog.aaronbieber.com
+url: "http://blog.aaronbieber.com"
 title: Aaron Bieber
 subtitle: The chronicle of a ColdFusion expatriate.
 author: Aaron Bieber
-simple_search: http://google.com/search
+simple_search: "http://google.com/search"
 description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -17,7 +17,7 @@ date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
-subscribe_email:
+# subscribe_email:
 # RSS feeds can list your email address if you like
 email:
 

@@ -1,12 +1,2 @@
-<<<<<<< HEAD
----
-layout: nil
----
-User-agent: *
-Disallow: 
-
-Sitemap: {{ site.url }}/sitemap.xml 
-=======
 User-agent: *
 Allow: /
->>>>>>> Changed theme to octopress-bootstrap.

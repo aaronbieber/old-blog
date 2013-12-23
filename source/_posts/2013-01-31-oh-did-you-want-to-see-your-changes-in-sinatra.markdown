@@ -5,7 +5,6 @@ layout: post
 comments: true
 permalink: /2013/01/31/oh-did-you-want-to-see-your-changes-in-sinatra/
 ---
-# 
 
 I started fiddling with the neat, lightweight Ruby web application framework “Sinatra” the other day. It seemed like a nice alternative to Rails and since I had also been playing with Slim for PHP, I wanted to see what it was like on the Ruby side of the fence.
 
