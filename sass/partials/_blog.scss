@@ -9,8 +9,11 @@ article {
     background: $img-border bottom left repeat-x;
     h1 {
       margin: 0;
-      a { text-decoration: none;
-        &:hover { text-decoration: underline; } }
+      font-weight: 500;
+      a {
+          text-decoration: none;
+          &:hover { text-decoration: underline; }
+      }
     }
     p {
       font-size: .9em;
@@ -31,6 +34,16 @@ article {
   h2 {
     padding-top: 0.8em;
     background: $img-border top left repeat-x;
+  }
+  .entry-content ol,
+  .entry-content ul {
+    margin-left: 3em;
+    li {
+      margin-bottom: .7em;
+    }
+    li:last-child {
+      margin-bottom: 0;
+    }
   }
   .entry-content & h2:first-child, header + h2 { padding-top: 0; }
   h2:first-child, header + h2 { background: none; }
@@ -93,32 +106,29 @@ article + article {
   article header { background: none; padding-bottom: 0; }
   article h1 {
     font-size: 2.2em;
-    a { 
-      padding: 0em 0.3em;
-      border: 1px solid white;
+    a {
       color: inherit;
       &:hover {
-        text-decoration: none;
-        color: $link-color-hover; 
-        border: 1px solid #bbb;
-      } 
+        text-decoration: underline;
+        color: $link-color-hover;
+      }
       @include border-radius(3px 3px);
       @include transition(border .3s);
     }
   }
   a[rel=full-article] {
-    background: darken($main-bg, 5);
     display: inline-block;
     padding: .4em .8em;
     margin-right: .5em;
     text-decoration: none;
+    border: 2px solid #ddd;
     color: mix($text-color, $text-color-light);
     @extend .serif;
-    @include transition(background-color .3s);
+    @include transition(border-color .3s);
+    @include border-radius(3px 3px);
     &:hover {
-      background: $link-color-hover;
+      border-color: #000;
       text-shadow: none;
-      color: $main-bg;
     }
   }
   footer {
