@@ -70,9 +70,9 @@ $ sudo apt-get install rbenv
 
 Once that's installed, you are also going to want the `ruby-build` package 
 also by Sam Stephenson, which streamlines the download and compilation of your 
-selected version(s) of Ruby. This is covered on the [ruby-build github 
-page][2], but I had some issue installing it as a plugin, which I'll cover 
-next.
+selected version(s) of Ruby. This is covered on the 
+[ruby-build github page][2], but I had some issue installing it as a plugin, 
+which I'll cover next.
 
 [2]: https://github.com/sstephenson/ruby-build
 
