@@ -1,6 +1,15 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
+.follow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 5px 5px 0 rgba(150, 150, 150, 0.5);
+  z-index: 1000;
+}
+
 article .entry-content {
   dl {
     font-size: 1em;
@@ -44,4 +53,3 @@ article .entry-content {
     }
   }
 }
-
