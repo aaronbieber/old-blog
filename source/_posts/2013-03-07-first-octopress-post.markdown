@@ -5,6 +5,7 @@ layout: post
 date: 2013-03-07 11:34
 comments: true
 ---
+
 I have migrated the clunky, dusty old Wordpress blog into Octopress, the 
 spiffy, mostly-Ruby-powered, static blog site generator. While the primary 
 impetus for this migration was the promise of editing all of my blog posts 
