@@ -7,8 +7,20 @@ body > #nav_floater {
 }
 
 body > #nav_floater > nav {
+  text-align: center;
   background-color: $nav-bg;
   padding: .35em;
+  h2 {
+    margin: 5px 0 0 0;
+    a {
+      text-shadow: none;
+      font-size: 1em;
+      float: none;
+      margin: 0;
+      padding: 0;
+      line-height: 1em;
+    }
+  }
   form {
     @include background-clip(padding-box);
     margin: 0; padding: 0;
