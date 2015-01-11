@@ -1,6 +1,6 @@
 ---
+title: Test Complex Vim Settings Easily
 layout: post
-title: "Test Complex Vim Settings Easily"
 date: 2013-10-24 12:52
 comments: true
 categories: 

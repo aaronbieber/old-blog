@@ -1,6 +1,6 @@
 ---
+title: Rbenv Revisited
 layout: post
-title: "Rbenv revisited"
 date: 2013-03-11 21:28
 comments: true
 categories: 

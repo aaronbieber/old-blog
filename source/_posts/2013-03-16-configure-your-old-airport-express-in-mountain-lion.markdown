@@ -1,6 +1,6 @@
 ---
+title: Configure Your Old AirPort Express in Mountain Lion
 layout: post
-title: "Configure your old AirPort Express in Mountain Lion"
 date: 2013-03-16 11:31
 comments: true
 categories: 

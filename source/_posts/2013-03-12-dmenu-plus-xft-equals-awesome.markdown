@@ -1,6 +1,6 @@
 ---
+title: dmenu + xft = awesome
 layout: post
-title: "dmenu + xft = awesome"
 date: 2013-03-12 17:16
 comments: true
 categories: 

@@ -1,6 +1,6 @@
 ---
+title: C * Music Player Is My New Best Friend
 layout: post
-title: "C * Music Player is my new best friend"
 date: 2013-04-06 08:34
 comments: true
 categories: 

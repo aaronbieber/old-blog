@@ -1,6 +1,6 @@
 ---
+title: Rbenv For the Win"
 layout: post
-title: "Rbenv for the win"
 date: 2013-03-08 10:34
 comments: true
 categories: 

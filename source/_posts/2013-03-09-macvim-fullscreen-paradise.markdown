@@ -1,6 +1,6 @@
 ---
+title: MacVim Fullscreen Paradise!
 layout: post
-title: MacVim fullscreen paradise!
 date: 2013-03-09 15:06
 comments: true
 categories: 

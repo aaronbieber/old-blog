@@ -1,5 +1,5 @@
 ---
-title: Welcome to my chronicle
+title: Welcome to My Chronicle
 author: Aaron
 layout: post
 comments: true

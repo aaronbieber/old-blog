@@ -147,13 +147,15 @@ article + article {
   text-align: center;
   font-size: .95em;
   position: relative;
+  width: 100%;
+  margin: 0;
   background: $img-border top left repeat-x;
-  padding: {top: 1.5em; bottom: 1.5em;}
+  padding: {top: 1.5em; bottom: 1.5em; left: 1em; right: 1em;}
   a {
     text-decoration: none;
     color: $text-color-light;
-    &.prev { position: absolute; left: 0; }
-    &.next { position: absolute; right: 0; }
+    &.prev { position: absolute; left: 10px; }
+    &.next { position: absolute; right: 10px; }
     &:hover { color: $link-color-hover; }
     &[href*=archive] {
       &:before, &:after { content: '\2014'; padding: 0 .3em; }

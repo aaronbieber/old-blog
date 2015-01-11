@@ -1,6 +1,6 @@
 ---
+title: From Vim to Emacs in Fourteen Days
 layout: post
-title: "From Vim to Emacs in Fourteen Days"
 date: 2014-09-20 23:01:25 -0400
 comments: true
 categories: 

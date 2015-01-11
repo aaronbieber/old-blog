@@ -1,5 +1,5 @@
 ---
-title: "First Octopress post"
+title: First Octopress Post
 author: Aaron
 layout: post
 date: 2013-03-07 11:34

@@ -1,6 +1,6 @@
 ---
+title: Why You Should Give ZSH Another Try
 layout: post
-title: "Why You Should Give ZSH Another Try"
 date: 2013-11-19 18:32
 comments: true
 categories:

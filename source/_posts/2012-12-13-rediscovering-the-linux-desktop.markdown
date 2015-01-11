@@ -1,5 +1,5 @@
 ---
-title: Rediscovering the Linux desktop
+title: Rediscovering the Linux Desktop
 author: Aaron
 layout: post
 comments: true

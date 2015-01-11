@@ -1,6 +1,6 @@
 ---
+title: Sharpening Your Blades
 layout: post
-title: "Sharpening Your Blades"
 date: 2014-02-12 17:27:47 -0500
 comments: true
 categories:

@@ -1,5 +1,5 @@
 ---
-title: "I love git. A lot."
+title: I love git. A lot.
 author: Aaron
 layout: post
 date: 2013-03-07 19:11

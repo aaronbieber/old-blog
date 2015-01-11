@@ -1,6 +1,6 @@
 ---
+title: Why Python Is Your Tooling Language of Choice
 layout: post
-title: "Why Python is your tooling language of choice"
 date: 2013-04-08 06:55
 comments: true
 categories: 

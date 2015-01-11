@@ -1,6 +1,6 @@
 ---
+title: Github Resume Is So Cool
 layout: post
-title: "Github resume is so cool"
 date: 2013-03-08 20:21
 comments: true
 categories: 

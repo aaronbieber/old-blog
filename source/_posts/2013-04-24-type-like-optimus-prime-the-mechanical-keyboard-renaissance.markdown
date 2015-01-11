@@ -1,6 +1,6 @@
 ---
+title: Type Like Optimus Prime: the Mechanical Keyboard Renaissance
 layout: post
-title: "Type Like Optimus Prime: the Mechanical Keyboard Renaissance"
 date: 2013-04-24 07:43
 comments: true
 categories: 

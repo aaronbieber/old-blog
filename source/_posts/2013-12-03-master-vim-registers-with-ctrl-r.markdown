@@ -1,6 +1,6 @@
 ---
+title: Master Vim Registers with CTRL-R
 layout: post
-title: "Master Vim Registers with CTRL-R"
 date: 2013-12-03 08:02
 comments: true
 categories: 

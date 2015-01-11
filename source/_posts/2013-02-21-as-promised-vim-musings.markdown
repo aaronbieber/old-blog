@@ -1,5 +1,5 @@
 ---
-title: As promised, Vim musings
+title: As Promised, Vim Musings
 author: Aaron
 layout: post
 comments: true

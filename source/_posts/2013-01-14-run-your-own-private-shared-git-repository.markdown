@@ -1,5 +1,5 @@
 ---
-title: Run your own private shared git repository
+title: Run Your Own Private Shared Git Repository
 author: Aaron
 layout: post
 comments: true

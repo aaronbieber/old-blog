@@ -1,6 +1,6 @@
 ---
+title: Amazon Cloud Player vs. Google Play
 layout: post
-title: "Amazon Cloud Player vs. Google Play"
 date: 2013-03-14 12:13
 comments: true
 categories: 
