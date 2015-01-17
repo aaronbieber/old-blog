@@ -1,5 +1,5 @@
 ---
-title: Type Like Optimus Prime: the Mechanical Keyboard Renaissance
+title: "Type Like Optimus Prime: the Mechanical Keyboard Renaissance"
 layout: post
 date: 2013-04-24 07:43
 comments: true
