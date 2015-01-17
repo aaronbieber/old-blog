@@ -108,7 +108,9 @@ for Microsoft and its employees and shareholders.
 Vim, on the other hand, is "charityware," is maintained and improved by a
 relatively small and devoted cadre of programmers who work for pure praise and
 self-satisfaction, and could, at least in theory, fall into an irrecoverable
-state of disrepair as other open source software projects have in the past.
+state of disrepair as other open source software projects have in the past if
+developers lose interest in the daily uphill battle of navigating disorganized
+code kept that way willfully by its original author.
 
 None of this makes me feel supremely confident that Vim will actually improve
 steadily over time. In fact, the observations made by Greer in his post linked
