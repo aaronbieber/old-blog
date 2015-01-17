@@ -1,6 +1,9 @@
 article {
   padding-top: 1em;
-  a { @extend .force-wrap; }
+  a {
+    @extend .force-wrap;
+    text-decoration: underline;
+  }
   header {
     position: relative;
     padding-top: 2em;
@@ -120,7 +123,7 @@ article + article {
     display: inline-block;
     padding: .4em .8em;
     margin-right: .5em;
-    text-decoration: none;
+    text-decoration: underline;
     border: 2px solid #ddd;
     color: mix($text-color, $text-color-light);
     @extend .serif;
