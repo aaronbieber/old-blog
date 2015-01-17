@@ -97,7 +97,7 @@ for the users of that program. Take, as an example, the various and long-lived
 Microsoft Office programs. We know from stories written by past and present
 Microsoft engineers that codebases of that size with reverse compatibility
 requirements of that magnitude are going to produce anything from mild shame to
-active regret in its maintainers.
+active regret in their maintainers.
 
 But Microsoft is a giant and powerful software company that has the enviable
 luxury of hiring amazingly talented people and paying them generously to
