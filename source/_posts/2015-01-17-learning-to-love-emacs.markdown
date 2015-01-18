@@ -1,18 +1,27 @@
 ---
-title: In the Closet with Emacs
+title: Learning to Love Emacs
 layout: post
 date: 2015-01-11 15:31:51 -0500
 comments: true
 categories: vim emacs
 ---
+
 It would be safe to say that I'm a Vim devotee; a follower. I own more than one
 t-shirt with Vim "stuff" on it (one bearing its logo, another the image of
-"HJKL" key caps). So, for me, saying that I use Emacs or, heaven forbid,
-advertising it through wardrobe choices, feels like an act of high treason.
+"HJKL" key caps). I've spoken at local Vim meetups, I subscribe to Vim-related
+lists, I've casually urged people to switch from Sublime Text to Vim at the
+office and a few actually did.
 
-Still, it is true. I'm living a double life. I love Vim and everything that it
-has done for me, but I have also learned to love Emacs because, in my opinion,
-it is a better piece of software, and I'm about to tell you why.<!--more-->
+For me, saying that I use Emacs or, heaven forbid, advertising it through
+wardrobe choices, feels like an act of high treason.
+
+Still, it is true. I've been secretly using Emacs for the past few months,
+exclusively. I have told a few people at work and all of them, without
+exception, literally gasped. That's how broadly I had advertised my love of
+Vim. But it's time now to explain why I switched and why you should think about
+switching, too.<!--more-->
+
+## Vim Is Awesome
 
 What is it about Vim that is so awesome? Primarily, it is its mnemonically
 fluent, composable interface, which lends itself to the common keyboard
@@ -21,21 +30,25 @@ interface. Once you learn the keystroke for "delete," and the keystrokes for
 them "text objects") by typing the keystrokes one after another. Learn the
 keystroke for "yank" (which is "copy" in Vim parlance) and you can now yank all
 of those text objects. That's what we mean by "composable," and that is the
-power of the Vim interface.
+source of Vim's power.
 
-This is only possible because Vim is *modal*; all of the letters and numbers on
-your keyboard can be used for executing editing commands in "normal" mode, and
-you must change to "insert" mode for those keys to actually type those letters
-and numbers. For some, that is a burden they are unwilling to bear, and I wish
-those people long lives of repetitive stress injury and eventual carpal tunnel
-syndrome.
+Emacs, in its default configuration, uses sequences of modifier keystrokes to
+avoid pressing any bare letters or numbers to issue commands. This means that in
+order to delete letters, words, sentences, paragraphs, and so on, you must learn
+entirely new sequences of keystrokes, each of which putting your hands into
+contortions to press a modifier at the same time.
+
+Vim's approach is simpler to grasp and easier to execute. Paired with an array
+of impressive plug-ins adding everything from linting to git integration, it's
+as close to an IDE as I've ever wanted.
 
 Unfortunately for Vim--the editor that I have grown to love with a passion that
-spills from my words and actions on a daily basis--it is a shitty piece of
-software. I mean, sure, you can run it on virtually any platform and it opens
-quickly and can handily edit huge files and for all of those reasons it is
-objectively superior to, say, EditPlus or even Sublime Text in certain
-circumstances. But that doesn't make it a *great* piece of software.
+spills from my words and actions on a daily basis and that even now I'm mildly
+proselytizing--it is a shitty piece of software. I mean, sure, you can run it on
+virtually any platform and it opens quickly and can handily edit huge files and
+for all of those reasons it is objectively superior to, say, EditPlus or even
+Sublime Text in certain circumstances. But that doesn't make it a *great* piece
+of software.
 
 There are three reasons that I believe Emacs to be superior to Vim *as a
 software package*.
