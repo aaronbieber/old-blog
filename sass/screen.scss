@@ -1,10 +1,62 @@
 @import "compass";
-@include global-reset;
+@import "partials/navigation";
 
-@import "custom/colors";
-@import "custom/fonts";
-@import "custom/layout";
-@import "base";
-@import "partials";
-//@import "plugins/**/*";
-@import "custom/styles";
+body {
+  font-family: "Cardo", Georgia, Times, "Times New Roman", serif;
+  line-height: 1.5em;
+
+  > header {
+    font-size: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+
+    h1 {
+      font-size: 2.8em;
+      @extend .heading;
+      font-weight: 700;
+      line-height: 1.2em;
+      margin-bottom: 0.6667em;
+      text-align: center !important;
+    }
+
+    h2 {
+      text-align: center;
+    }
+  }
+}
+
+h1 {
+  font-size: 2.2em;
+  line-height: 1.2em;
+}
+h2, section h1 {
+  font-size: 1.5em;
+}
+h3, section h2, section section h1 {
+  font-size: 1.3em;
+}
+h4, section h3, section section h2, section section section h1 {
+  font-size: 1em;
+}
+h5, section h4, section section h3 {
+  font-size: .9em;
+}
+h6, section h5, section section h4, section section section h3 {
+  font-size: .8em;
+}
+
+a {
+  :hover, :active, :visited {
+    color: black;
+  }
+
+  color: black;
+}
+
+article {
+}
+
+@media only screen and (min-width: 992px) {
+  body { font-size: 1.15em; }
+  h1 { font-size: 2.6em; line-height: 1.2em; }
+}

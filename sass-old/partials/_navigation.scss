@@ -1,30 +1,14 @@
-$max-width: 1200px !default;
-
-// Padding used for layout margins
-$pad-min: 18px !default;
-$pad-narrow: 25px !default;
-$pad-medium: 35px !default;
-$pad-wide: 55px !default;
-
-// Sidebar widths used in media queries
-$sidebar-width-medium: 240px !default;
-$sidebar-pad-medium: 15px !default;
-$sidebar-pad-wide: 20px !default;
-$sidebar-width-wide: 300px !default;
-
-$sans: "PT Sans", "Helvetica Neue", Arial, sans-serif !default;
-$serif: "Cardo", Georgia, Times, "Times New Roman", serif !default;
-
 body > #nav_floater {
   position: relative;
   height: 45px;
   border: {
-    bottom: 1px solid black;
-  }
+    top: 1px solid $nav-border-top;
+    bottom: 1px solid $nav-border-bottom; }
 }
 
 body > #nav_floater > nav {
   text-align: center;
+  background-color: $nav-bg;
   padding: .35em;
   h2 {
     margin: 5px 0 0 0;
@@ -48,9 +32,9 @@ body > #nav_floater > nav {
       width: 95%;
       @include border-radius(.5em);
       @include background-clip(padding-box);
-      /*@include box-shadow(lighten($nav-bg, 2) 0 1px);*/
-      /*background-color: lighten($nav-bg, 15);*/
-      /*border: 1px solid $nav-border;*/
+      @include box-shadow(lighten($nav-bg, 2) 0 1px);
+      background-color: lighten($nav-bg, 15);
+      border: 1px solid $nav-border;
       color: #888;
       &:focus {
         color: #444;
@@ -83,9 +67,9 @@ body > #nav_floater > nav {
       margin: 0;
     }
     a {
-      /*@include link-colors($nav-color, $nav-color-hover, $visited: $nav-color);*/
+      @include link-colors($nav-color, $nav-color-hover, $visited: $nav-color);
       font-family: $serif;
-      /*text-shadow: lighten($nav-bg, 12) 0 1px;*/
+      text-shadow: lighten($nav-bg, 12) 0 1px;
       float: left;
       text-decoration: none;
       font-size: 1.1em;
@@ -93,11 +77,11 @@ body > #nav_floater > nav {
       line-height: 1.5em;
     }
     li + li {
-      border-left: 1px solid black;
+      border-left: 1px solid $nav-border-left;
       margin-left: .8em;
       a {
         padding-left: .8em;
-        /*border-left: 1px solid $nav-border-right;*/
+        border-left: 1px solid $nav-border-right;
       }
     }
     form {
@@ -129,23 +113,23 @@ body > #nav_floater > nav {
 }
 .no-placeholder {
   body > nav .search {
-    /*background: lighten($nav-bg, 15) image-url('search.png') .3em .25em no-repeat;*/
+    background: lighten($nav-bg, 15) image-url('search.png') .3em .25em no-repeat;
     text-indent: 1.3em;
   }
 }
 @mixin mask-subscription-nav($feed: 'rss.png'){
   position: relative; top: 0px;
   text-indent: -999999em;
-  /*background-color: $nav-border-right;*/
+  background-color: $nav-border-right;
   border: 0;
   padding: 0;
-  /*&,&:after { @include mask-image($feed); }*/
+  &,&:after { @include mask-image($feed); }
   &:after {
     content: "";
     position: absolute; top: -1px; left: 0;
-    /*background-color: lighten($nav-color, 25);*/
+    background-color: lighten($nav-color, 25);
   }
-  /*&:hover:after { background-color: lighten($nav-color, 20); }*/
+  &:hover:after { background-color: lighten($nav-color, 20); }
 }
 .maskImage {
   body > nav {
