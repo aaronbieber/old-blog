@@ -4,6 +4,7 @@ layout: post
 date: 2014-09-20 23:01:25 -0400
 comments: true
 categories: 
+published: false
 ---
 
 Yes, my friends, it is true. After more than fifteen years using Vim, teaching
