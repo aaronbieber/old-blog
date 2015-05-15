@@ -24,7 +24,7 @@ switching, too.<!--more-->
 ## Vim Is Awesome
 
 What is it about Vim that is so awesome? Primarily, it is its mnemonically
-fluent, composable interface, which lends itself to the common keyboard
+fluent, composable grammar, which lends itself to the common keyboard
 interface. Once you learn the keystroke for "delete," and the keystrokes for
 "word," "sentence," "paragraph," and so on, you can delete those things (we call
 them "text objects") by typing the keystrokes one after another. Learn the
@@ -160,9 +160,9 @@ Imagine!
 
 NeoVim sounds very promising, but it is still in its infancy. It only compiles
 on a few platforms and it isn't feature-complete yet. It might not be for some
-time to time. From what I have heard, the group of folks working on the project
-are notoriously friendly and welcoming to others willing to help. The Vim
-community lacks this because it is led and managed solely by Bram.
+time to come. From what I have heard, the group of folks working on the project
+are friendly and welcoming to others willing to help. The Vim community lacks
+this because it is led and managed solely by Bram.
 
 In an e-mail interview published on Binpress,
 [10 Questions with Vim's creator, Bram Moolenaar](http://www.binpress.com/blog/2014/11/19/vim-creator-bram-moolenaar-interview/),
